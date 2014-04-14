@@ -1,3 +1,7 @@
+# This script lists (and enters into Google spreadsheet) email addresses of all employees
+# from the LDAP directory that are not entered in Google spreadsheet. In this particular script
+# email address of the employee was used as filter for search and modification.
+
 import gspread
 import getpass
 import ldap
