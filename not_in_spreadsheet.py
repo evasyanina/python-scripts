@@ -45,7 +45,6 @@ try:
 					email = entry[1]['mail'][0]
 					values = google_doc.col_values(4)
 					if email not in values:
-						#print email
 						email_string = []
                 				email_string.append('J') # print results in column "J" of the spreadsheet
 						email_string.append(str(j))
