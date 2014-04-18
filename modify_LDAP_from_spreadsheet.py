@@ -153,8 +153,6 @@ try:
                                         if result_type == ldap.RES_SEARCH_ENTRY:
                                                 result_name = result_data[0][0]
                                                 result_manager = result_data[0][1]
-                        #print "Search result: %s" % result_name
-                        #print "%s" %result_manager
                 except ldap.LDAPError, e:
                         print e
 
