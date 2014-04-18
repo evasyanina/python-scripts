@@ -5,7 +5,7 @@ This repository contains short python script for LDAP management and automatizat
 
 -modify_LDAP_from_spreadsheet.py
  This script modifies title, job type and manager of the employee in the LDAP directory
- using data provided in Google spreadsheet. In this particular script email address of the employee
+ using data provided in Google spreadsheet. In this particular script email address of the employee 
  was used as filter for search and modification.
 
 -not_in_spreadsheet.py
